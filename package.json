@@ -1,0 +1,24 @@
+{
+  "name": "poc-flag-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "18.15.1",
+    "@types/ramda": "^0.28.23",
+    "ts-node": "^10.9.1",
+    "typescript": "4.9.5"
+  },
+  "dependencies": {
+    "add": "^2.0.6",
+    "flag-system": "git+ssh://git@ssh.dev.azure.com:v3/nginformatica/Pesquisa%20e%20Desenvolvimento/flag-system#release/0.9.1",
+    "ramda": "^0.28.0",
+    "yarn": "^1.22.19"
+  }
+}
