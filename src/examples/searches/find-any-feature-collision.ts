@@ -1,4 +1,4 @@
-import { ApiResponse, FeatureCollisionReturn } from 'flag-system'
+import { FeatureCollisionReturn } from 'flag-system'
 import { Feature } from '../../base/features'
 import { Flag } from '../../base/flags'
 import flagSystem from '../../base/implementation'
