@@ -35,7 +35,7 @@ const addFlagToEntityExample = async () => {
    * Nesse exemplo levamos em consideração apenas o fato do usuário ter acesso ou não
    * a feature.
    */
-  console.log(beforeInsert) // { available: false, version: undefined }
+  console.log(beforeInsert) // { available: false, version: 'NOT_AVAILABLE' }
   console.log(afterInsert) // { available: true, version: 'STABLE' }
 
   await flagSystem.updateFlag(
